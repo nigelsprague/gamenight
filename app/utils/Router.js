@@ -1,5 +1,4 @@
 import { Pop } from "./Pop.js";
-import { playersController } from "../controllers/PlayersController.js";
 
 /**
  * Supporting types for the router

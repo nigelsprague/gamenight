@@ -5,8 +5,8 @@ export class playersController {
     console.log('Players Controller is loaded')
   }
 
-  drawPlayers() {
-    const players = AppState.players
-  }
+  // drawPlayers() {
+  //   const players = AppState.players
+  // }
 }
 
