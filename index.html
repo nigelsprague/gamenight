@@ -42,8 +42,20 @@
   <main class="container-fluid">
     <!-- <section id="router-view"></section> -->
     <div id="player-cards"></div>
-    <div class="card">
-      <span class="text-center text-light bg-dark py-2">Add Player (does not work yet)</span>
+    <div class="card text-center py-2 my-3">
+      <form onsubmit="app.playersController.addPlayer(playerName)">
+        <div>
+          <label for="name">Player Name:</label>
+          <input type="text" minlength="2" maxlength="15" name="playerName" required />
+        </div>
+        <div class="py-2">
+          <label for="avatar">Avatar(emoji):</label>
+          <input type="text" minlength="1" maxlength="1" name="playerAvatar" required />
+        </div>
+        <div>
+          <button type="submit">Add Player</button>
+        </div>
+      </form>
     </div>
   </main>
 

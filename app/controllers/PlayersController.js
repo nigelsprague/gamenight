@@ -17,6 +17,10 @@ export class playersController {
     this.drawPlayers()
   }
 
+  addPlayer(playerName) {
+    event.preventDefault()
+  }
+
   drawPlayers() {
     const players = AppState.players
     let playerContent = ''
