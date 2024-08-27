@@ -7,8 +7,8 @@ class ObservableAppState extends EventEmitter {
   // /**@type {import('./models/Example.js').Example[]} */
   // examples = []
   players = [
-    new Player('Nigel', 'skull'),
-    new Player('Sarah', 'cat')
+    new Player('Nigel', '☠️'),
+    new Player('Sarah', '😻')
   ]
 }
 
